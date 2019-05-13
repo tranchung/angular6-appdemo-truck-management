@@ -1,9 +1,9 @@
-import { TruckDetailsComponent } from '../truck-details/truck-details.component';
 import { Observable } from 'rxjs';
 import { TruckService } from '../truck.service';
-import { Truck } from '../truck';
+import {Cargo, Truck, TruckStatus} from '../truck';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import {AxiosPromise} from "axios";
 import {Globals} from "../global";
 
 @Component({
@@ -21,8 +21,11 @@ export class TruckListComponent implements OnInit {
   }
 
   reloadData() {
-    this.trucks = this.truckService.getTrucksList();
-    console.log(this.trucks);
+    this.truckService.getTrucksList().then(response => {
+      console.log(response);
+      this.trucks = response.data;
+      Globals.trucks = this.trucks;
+    });
   }
 
   deleteTruck(id: number) {
@@ -33,4 +36,15 @@ export class TruckListComponent implements OnInit {
   editTruck(id: number) {
     this.router.navigateByUrl("/edit/"+id);
   }
+
+  getCargo(value: number): string {
+    const cargo = Cargo.find(x => x.value ===  Number(value)).label;
+    return cargo;
+  }
+
+  getStatus(value: number): string {
+    const status = TruckStatus.find(x => x.value ===  Number(value)).label;
+    return status;
+  }
+
 }

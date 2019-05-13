@@ -6,20 +6,35 @@
     <table class="table table-striped table-bordered">
       <thead>
         <tr>
-          <th>No.</th>
-          <th>Firstname</th>
-          <th>Lastname</th>
-          <th>Email</th>
+          <td>id</td>
+          <td>code</td>
+          <td>cargo_ids</td>
+          <td>driver</td>
+          <td>type</td>
+          <td>price</td>
+          <td>dimension</td>
+          <td>parking</td>
+          <td>production_year</td>
+          <td>status</td>
+          <td>description</td>
           <th>Actions</th>
         </tr>
       </thead>
       <tbody>
-      <tr>{{globals}}<tr>
-        <tr *ngFor="let truck of trucks">
+        <tr *ngFor="let truck of trucks " >
           <td>{{truck.id}}</td>
-          <td>{{truck.firstName}}</td>
-          <td>{{truck.lastName}}</td>
-          <td>{{truck.emailId}}</td>
+          <td>{{truck.t_code}}</td>
+          <td>
+            <div *ngFor="let cargo of truck.cargos">{{getCargo(cargo)}} </div>
+          </td>
+          <td>{{truck.driver}}</td>
+          <td>{{truck.type}}</td>
+          <td>{{truck.price}}</td>
+          <td>{{truck.dimension}}</td>
+          <td>{{truck.parking}}</td>
+          <td>{{truck.production_year}}</td>
+          <td>{{getStatus(truck.status)}}</td>
+          <td>{{truck.description}}</td>
           <td>
             <button (click)="deleteTruck(truck.id)">Delete</button> |
             <button (click)="editTruck(truck.id)">Edit</button>

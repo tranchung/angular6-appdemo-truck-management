@@ -1,4 +1,4 @@
-import { Truck }                    from '../truck';
+import {Truck, TruckStatus} from '../truck';
 import { Component, OnInit, Input } from '@angular/core';
 import {TruckService}               from '../truck.service';
 import { ActivatedRoute, Router }   from '@angular/router';
@@ -12,6 +12,7 @@ import {Globals}                    from "../global";
 export class TruckDetailsComponent implements OnInit {
 
   truck: Truck;
+  status: { label: string, value: number }[] =  TruckStatus;
 
   constructor(private truckService: TruckService, private activeRoute: ActivatedRoute, private router: Router) { }
 
@@ -20,8 +21,8 @@ export class TruckDetailsComponent implements OnInit {
       this.truck = Globals.trucks.find(x => x.id === +params['id']);
     });
   }
+
   onSubmit() {
     this.truckService.updateTruck(this.truck);
-    this.router.navigateByUrl('/trucks');
   }
 }

@@ -1,0 +1,41 @@
+{
+  "trucks": [
+    {
+      "id": 2,
+      "t_code": "30A-53333",
+      "cargos": [
+        1,
+        2
+      ],
+      "driver_id": 1,
+      "type": "6666",
+      "price": 150,
+      "dimension": "10-2-1.5",
+      "parking": "No. 128, Hoàn Kiếm street,Hà Nội",
+      "production_year": 2012,
+      "status": 2,
+      "description": "asdsad",
+      "create_at": "",
+      "updated_at": "",
+      "driver": "sss"
+    }
+  ],
+  "cargo": [
+    {
+      "id": 1,
+      "name": "Computer"
+    },
+    {
+      "id": 2,
+      "name": "Electronic"
+    },
+    {
+      "id": 3,
+      "name": "Vegetable"
+    },
+    {
+      "id": 4,
+      "name": "Kid toys"
+    }
+  ]
+}

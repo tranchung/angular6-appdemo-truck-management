@@ -6,7 +6,7 @@ import { TruckListComponent } from './truck-list/truck-list.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'truck', pathMatch: 'full' },
-  { path: 'trucks', component: TruckListComponent },
+  { path: 'list', component: TruckListComponent },
   { path: 'add', component: CreateTruckComponent },
   { path: 'edit/:id', component: TruckDetailsComponent },
 ];

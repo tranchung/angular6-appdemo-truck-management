@@ -2,21 +2,56 @@
 <div [hidden]="submitted" style="width: 400px;">
   <form (ngSubmit)="onSubmit()">
     <div class="form-group">
-      <label for="name">First Name</label>
-      <input type="text" class="form-control" id="firstName" required [(ngModel)]="truck.firstName" name="firstName">
+      <label for="name">Truck plate</label>
+      <input type="text" class="form-control" id="t_code" required [(ngModel)]="truck.t_code" name="t_code">
     </div>
 
     <div class="form-group">
-      <label for="name">Last Name</label>
-      <input type="text" class="form-control" id="lastName" required [(ngModel)]="truck.lastName" name="lastName">
+      <label for="name">Cargo type</label>
+
     </div>
 
     <div class="form-group">
-      <label for="name">Email</label>
-      <input type="text" class="form-control" id="emailId" required [(ngModel)]="truck.emailId" name="emailId">
+      <label for="name">Driver</label>
+      <input type="text" class="form-control" id="driver" required [(ngModel)]="truck.driver" name="driver">
+    </div>
+    <div class="form-group">
+      <label for="name">Truck type</label>
+      <input type="text" class="form-control" id="type" required [(ngModel)]="truck.type" name="type">
     </div>
 
-    <button type="submit" class="btn btn-success">Submit</button>
+    <div class="form-group">
+      <label for="name">Price</label>
+      <input type="text" class="form-control" id="price" required [(ngModel)]="truck.price" name="price">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Dimension</label>
+      <input type="text" class="form-control" id="dimension" required [(ngModel)]="truck.dimension" name="dimension">
+    </div>
+    <div class="form-group">
+      <label for="name">Parking</label>
+      <input type="text" class="form-control" id="parking" required [(ngModel)]="truck.parking" name="parking">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Production year</label>
+      <input type="text" class="form-control" id="production_year" required [(ngModel)]="truck.production_year" name="production_year">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Status</label>
+      <select id="status" name="status" [(ngModel)]="truck.status" value="{{truck.status}}">
+        <option *ngFor="let  t_status of status" value="{{t_status.value}}"  >
+          {{t_status.label}}
+        </option>
+      </select>
+   </div>
+    <div class="form-group">
+      <label for="name">Description</label>
+      <input type="text" class="form-control" id="description" required [(ngModel)]="truck.description" name="description">
+    </div>
+    <button type="submit" class="btn btn-success">Save</button>
   </form>
 </div>
 
