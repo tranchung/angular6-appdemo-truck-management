@@ -2,7 +2,7 @@
   "trucks": [
     {
       "id": 2,
-      "t_code": "30A-53333",
+      "t_code": "30A-53333dddd",
       "cargos": [
         1,
         2
@@ -18,24 +18,18 @@
       "create_at": "",
       "updated_at": "",
       "driver": "sss"
-    }
-  ],
-  "cargo": [
-    {
-      "id": 1,
-      "name": "Computer"
-    },
-    {
-      "id": 2,
-      "name": "Electronic"
     },
     {
       "id": 3,
-      "name": "Vegetable"
-    },
-    {
-      "id": 4,
-      "name": "Kid toys"
+      "t_code": "30A-AAAAA",
+      "driver": "Tran CHung",
+      "type": "2",
+      "price": "11111",
+      "dimension": "10-2-1.5",
+      "parking": "121212",
+      "production_year": "12",
+      "status": "2",
+      "description": "sdd"
     }
   ]
 }

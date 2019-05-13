@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="53acc726-5fdc-4a41-9ada-f4a5f3e695f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/truckMangager/db/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/truckMangager/proxy.conf.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truckMangager/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/truckMangager/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truckMangager/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/truckMangager/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truckMangager/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/truckMangager/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truckMangager/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/truckMangager/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truckMangager/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/truckMangager/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/truckMangager/db/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/truckMangager/db/db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/truckMangager/src/app/app.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/truckMangager/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/truckMangager/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truckMangager/src/app/create-truck/create-truck.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/truckMangager/src/app/create-truck/create-truck.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truckMangager/src/app/create-truck/create-truck.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/truckMangager/src/app/create-truck/create-truck.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truckMangager/src/app/global.ts" beforeDir="false" afterPath="$PROJECT_DIR$/truckMangager/src/app/global.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truckMangager/src/app/truck-details/truck-details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/truckMangager/src/app/truck-details/truck-details.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truckMangager/src/app/truck-details/truck-details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/truckMangager/src/app/truck-details/truck-details.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truckMangager/src/app/truck-list/truck-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/truckMangager/src/app/truck-list/truck-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truckMangager/src/app/truck-list/truck-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/truckMangager/src/app/truck-list/truck-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truckMangager/src/app/truck.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/truckMangager/src/app/truck.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/truckMangager/src/app/truck.ts" beforeDir="false" afterPath="$PROJECT_DIR$/truckMangager/src/app/truck.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/truckMangager/src/assets/.gitkeep" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,47 +15,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.70544785">
+    <splitter split-orientation="horizontal" split-proportion="0.6663693">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/truckMangager/src/app/truck-list/truck-list.component.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-                  <folding>
-                    <element signature="e#0#34#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/truckMangager/src/app/truck-list/truck-list.component.spec.ts">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-                  <folding>
-                    <element signature="e#0#73#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/truckMangager/src/app/truck-list/truck-list.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/truckMangager/src/app/truck.service.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
-                  <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+                <state relative-caret-position="296">
+                  <caret line="56" column="3" lean-forward="true" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
                   <folding>
                     <element signature="e#0#43#0" expanded="true" />
                   </folding>
@@ -77,32 +30,51 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/truckMangager/src/app/app.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="148">
+                    <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/truckMangager/src/app/truck-details/truck-details.component.ts">
+            <entry file="file://$PROJECT_DIR$/truckMangager/package-lock.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="14" column="40" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="40" />
+                <state relative-caret-position="120">
+                  <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/truckMangager/src/app/truck-details/truck-details.component.html">
+            <entry file="file://$PROJECT_DIR$/truckMangager/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor />
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/truckMangager/proxy.conf.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="40" selection-start-line="40" selection-end-line="40" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                  </folding>
+                <state relative-caret-position="90">
+                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/truckMangager/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -147,7 +119,7 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/truckMangager/src/app/truck.ts">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="202">
@@ -165,11 +137,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/truckMangager/db/db.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="315">
-                  <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+                  <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -238,7 +210,6 @@
         <option value="$PROJECT_DIR$/truckMangager/e2e/protractor.conf.js" />
         <option value="$PROJECT_DIR$/truckMangager/src/styles.scss" />
         <option value="$PROJECT_DIR$/truckMangager/src/tslint.json" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/truck-app-demo-with-mock-data/package-lock.json" />
         <option value="$PROJECT_DIR$/truck-app-demo-with-mock-data/angular-mock-data/package.json" />
         <option value="$PROJECT_DIR$/truck-app-demo-with-mock-data/angular-mock-data/data.json" />
@@ -257,13 +228,15 @@
         <option value="$PROJECT_DIR$/truckMangager/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/truckMangager/src/app/truck-list/truck-list.component.html" />
         <option value="$PROJECT_DIR$/truckMangager/src/app/truck-details/truck-details.component.html" />
-        <option value="$PROJECT_DIR$/truckMangager/db/db.json" />
         <option value="$PROJECT_DIR$/truckMangager/src/app/create-truck/create-truck.component.html" />
         <option value="$PROJECT_DIR$/truckMangager/src/app/truck.ts" />
         <option value="$PROJECT_DIR$/truckMangager/src/app/truck-details/truck-details.component.ts" />
         <option value="$PROJECT_DIR$/truckMangager/src/app/create-truck/create-truck.component.ts" />
         <option value="$PROJECT_DIR$/truckMangager/src/app/truck-list/truck-list.component.ts" />
         <option value="$PROJECT_DIR$/truckMangager/src/app/truck.service.ts" />
+        <option value="$PROJECT_DIR$/truckMangager/db/db.json" />
+        <option value="$PROJECT_DIR$/truckMangager/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -297,56 +270,6 @@
               <item name="angular6-appdemo-truck-management" type="462c0819:PsiDirectoryNode" />
               <item name="truckMangager" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="angular6-appdemo-truck-management" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular6-appdemo-truck-management" type="462c0819:PsiDirectoryNode" />
-              <item name="truckMangager" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular6-appdemo-truck-management" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular6-appdemo-truck-management" type="462c0819:PsiDirectoryNode" />
-              <item name="truckMangager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular6-appdemo-truck-management" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular6-appdemo-truck-management" type="462c0819:PsiDirectoryNode" />
-              <item name="truckMangager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular6-appdemo-truck-management" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular6-appdemo-truck-management" type="462c0819:PsiDirectoryNode" />
-              <item name="truckMangager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="create-truck" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular6-appdemo-truck-management" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular6-appdemo-truck-management" type="462c0819:PsiDirectoryNode" />
-              <item name="truckMangager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="truck-details" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular6-appdemo-truck-management" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular6-appdemo-truck-management" type="462c0819:PsiDirectoryNode" />
-              <item name="truckMangager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="truck-list" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="angular6-appdemo-truck-management" type="b2602c69:ProjectViewProjectNode" />
-              <item name="angular6-appdemo-truck-management" type="462c0819:PsiDirectoryNode" />
-              <item name="truckMangager" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="environments" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -357,7 +280,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557644686189" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557717566660" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -404,17 +327,18 @@
       <workItem from="1557410138987" duration="9279000" />
       <workItem from="1557501691289" duration="4850000" />
       <workItem from="1557507272364" duration="34286000" />
-      <workItem from="1557714704301" duration="655000" />
+      <workItem from="1557714704301" duration="2548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58676000" />
+    <option name="totallyTimeSpent" value="60569000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-290" y="97" width="1440" height="814" extended-state="0" />
+    <frame x="6" y="23" width="1440" height="814" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26824033" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26108727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -432,7 +356,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.39473686" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3531856" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -449,8 +373,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/truck-app-demo-with-mock-data/angular-mock-data/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/truck-app-demo-with-mock-data/angular-mock-data/README.md" />
     <entry file="file://$PROJECT_DIR$/truck-app-demo-with-mock-data/node_modules/lowdb/README.md" />
     <entry file="file://$PROJECT_DIR$/truck-app-demo-with-mock-data/angular-mock-data/src/app/organization/state/index.ts" />
     <entry file="file://$PROJECT_DIR$/truck-app-demo-with-mock-data/angular-mock-data/src/app/organization/views.module.ts" />
@@ -485,9 +407,6 @@
     <entry file="file://$PROJECT_DIR$/truckMangager/src/app/truck-details/truck-details.component.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/truckMangager/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -514,27 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truckMangager/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truckMangager/proxy.conf.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truckMangager/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -653,34 +551,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/truckMangager/src/app/truck.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truckMangager/src/app/truck.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="40" column="51" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/truckMangager/src/app/global.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/truckMangager/db/db.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -694,6 +568,72 @@
           <folding>
             <element signature="e#0#73#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truckMangager/src/app/truck.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="56" column="3" lean-forward="true" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truckMangager/src/app/truck.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="40" column="51" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truckMangager/db/db.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truckMangager/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truckMangager/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truckMangager/proxy.conf.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/truckMangager/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="148">
+            <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
